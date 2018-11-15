@@ -88,8 +88,8 @@ def adding_matz
   programmer_hash
 end
 
-def changing_alan
-	programmer_hash = 
+ef changing_alan
+	programmer_hash =
  		{
         :grace_hopper => {
           :known_for => "COBOL",
@@ -104,12 +104,15 @@ def changing_alan
           :languages => ["C"]
         }
      }
-     #change what Alan Kay is :known_for to the value of the alans_new_info variable. 
+     #change what Alan Kay is :known_for to the value of the alans_new_info variable.
      alans_new_info = "GUI"
      
-     
+  programmer_hash[:alan_kay][:known_for] = "GUI"
+  programmer_hash
+
 end
 
+changing_alan
 def adding_to_dennis
 	programmer_hash = 
  		{
